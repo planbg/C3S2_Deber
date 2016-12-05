@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">C3S2_Deber</string>
+
+    <string name="txtNombreCompleto">Nombre Completo</string>
+    <string name="txtTelefono">Teléfono</string>
+    <string name="txtEMail">Email</string>
+    <string name="txtDescripcion">Descripción Contacto</string>
+    <string name="txtSiguiente">Siguiente</string>
+    <string name="txtConfimarDatos">Confirmar Datos</string>
+    <string name="txtEditar">Editar</string>
+    <string name="txt_confNombre">Nombre: </string>
+
+    <string name="txt_confFn">Fecha Nacimiento: </string>
+    <string name="txt_ConfTel">Tel: </string>
+    <string name="txt_ConfEmail">Email: </string>
+    <string name="txt_ConfDesc">Descripción: </string>
+
+    <string name="pNombre">parametro1</string>
+    <string name="pFecha">parametro2</string>
+    <string name="pTelefono">parametro3</string>
+    <string name="pEmail">parametro4</string>
+    <string name="pDescrip">parametro5</string>
+
+</resources>

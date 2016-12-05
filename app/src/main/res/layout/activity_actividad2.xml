@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.planbg.c3s2_deber.Actividad2">
+
+
+
+    <LinearLayout
+        android:id="@+id/area_Detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_ConfirmarDatos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="64dp"
+                android:textSize="32dp"
+                android:textStyle="bold"
+                android:ems="40"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text="@string/txtConfimarDatos"/>
+
+        <TextView
+            android:id="@+id/tv_cdNombre"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alturaTvs"
+            android:ems="10"
+            android:text="@string/txt_confNombre"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/tv_cdFecha"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alturaTvs"
+            android:ems="10"
+            android:inputType="text"
+            android:singleLine="true"
+            android:text="@string/txt_confFn"/>
+
+        <TextView
+            android:id="@+id/tv_cdTel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alturaTvs"
+            android:ems="10"
+            android:inputType="text"
+            android:singleLine="true"
+            android:text="@string/txt_ConfTel"/>
+
+        <TextView
+            android:id="@+id/tv_cdEmail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alturaTvs"
+            android:ems="10"
+            android:inputType="text"
+            android:singleLine="true"
+            android:text="@string/txt_ConfEmail"/>
+
+        <TextView
+            android:id="@+id/tv_cdDesc"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alturaTvs"
+            android:ems="10"
+            android:inputType="text"
+            android:singleLine="true"
+            android:text="@string/txt_ConfDesc"/>
+
+        <Button
+            android:id="@+id/boton_editar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:paddingLeft="64dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/txtEditar"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
